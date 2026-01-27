@@ -4981,6 +4981,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/ropey/ropey-1.6.1.crate",
+        "sha256": "93411e420bcd1a75ddd1dc3caf18c23155eda2c090631a85af21ba19e97093b5",
+        "dest": "cargo/vendor/ropey-1.6.1"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"93411e420bcd1a75ddd1dc3caf18c23155eda2c090631a85af21ba19e97093b5\", \"files\": {}}",
+        "dest": "cargo/vendor/ropey-1.6.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/rust-i18n/rust-i18n-3.1.5.crate",
         "sha256": "fda2551fdfaf6cc5ee283adc15e157047b92ae6535cf80f6d4962d05717dc332",
         "dest": "cargo/vendor/rust-i18n-3.1.5"
@@ -5509,6 +5522,19 @@
         "type": "inline",
         "contents": "{\"package\": \"a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f\", \"files\": {}}",
         "dest": "cargo/vendor/static_assertions-1.1.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/str_indices/str_indices-0.4.4.crate",
+        "sha256": "d08889ec5408683408db66ad89e0e1f93dff55c73a4ccc71c427d5b277ee47e6",
+        "dest": "cargo/vendor/str_indices-0.4.4"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"d08889ec5408683408db66ad89e0e1f93dff55c73a4ccc71c427d5b277ee47e6\", \"files\": {}}",
+        "dest": "cargo/vendor/str_indices-0.4.4",
         "dest-filename": ".cargo-checksum.json"
     },
     {
