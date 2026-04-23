@@ -36,6 +36,6 @@ modules:
     sources:
       - type: git
         url: https://github.com/OlaProeis/Ferrite.git
-        tag: v0.2.7
-        commit: 37b3831963460ef58e1717fd2ba568ea6d3c8bd1
+        tag: v0.2.9
+        commit: b3922773c7df8eda348fc965f8c7f4c285aa199f
       - cargo-sources.json
