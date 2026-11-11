@@ -1,15 +1,20 @@
 app-id: io.github.olaproeis.Ferrite
-runtime: org.freedesktop.Platform
-runtime-version: '25.08'
-sdk: org.freedesktop.Sdk
+# wry 0.55 links WebKitGTK 4.1 (javascriptcoregtk-4.1). That library is
+# part of the GNOME runtime, not org.freedesktop.Platform.
+runtime: org.gnome.Platform
+runtime-version: '51'
+sdk: org.gnome.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
 command: ferrite
 
 finish-args:
   - --share=ipc
+  # YouTube embeds and the update check need network outside the sandbox.
+  - --share=network
   - --socket=fallback-x11
   - --socket=wayland
+  - --socket=pulseaudio
   - --device=dri
 
 build-options:
